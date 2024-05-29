@@ -1,0 +1,102 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contenido {
+  background-color: #f9e4b7;
+}
+.logo-inicio {
+  height: 50px;
+}
+.collapse.navbar-collapse.barra {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}
+.portada {
+  & img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+}
+.titulo {
+  text-align: center;
+  font-style: italic;
+  font: bold;
+  font-size: 100px;
+}
+.subt {
+  text-align: center;
+  font: bold;
+  font-size: 70px;
+}
+.carta-des {
+  height: 65px;
+}
+.foto-platos {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.foto-platos img {
+  max-width: 100%;
+  height: 350px;
+}
+
+.opciones {
+  font-style: italic;
+  font: bold;
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+.platos-list {
+  margin-top: 10px;
+  flex-direction: column;
+}
+.lista {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sub-item {
+  font-size: 20px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+.historia {
+  margin-top: 10px;
+  justify-content: center;
+  font-style: italic;
+  font-size: 20px;
+}
+.texto {
+  text-indent: 2em;
+  justify-content: center;
+}
+.redes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  & img {
+    height: 17px;
+    padding-left: 7px;
+  }
+}
+footer {
+  background-color: black;
+}
