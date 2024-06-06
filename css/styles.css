@@ -2,15 +2,11 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.contenido {
+body {
   background-color: #f9e4b7;
 }
 .logo-inicio {
   height: 50px;
-}
-.collapse.navbar-collapse.barra {
-  display: flex;
-  justify-content: center;
 }
 
 .navbar-nav {
@@ -87,6 +83,7 @@
 .texto {
   text-indent: 2em;
   justify-content: center;
+  font-style: italic;
 }
 .redes {
   list-style: none;

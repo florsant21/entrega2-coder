@@ -10,68 +10,146 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary barra" >
-            <div class="container-fluid">
-                <a href="../index.html">
-              <img class="logo-inicio" src="../assets/logo.png" alt="logo piacere">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </a>
-              </button>
-              <div class="collapse navbar-collapse barra" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Carta
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="./desayunos.html">Desayunos /meriendas</a></li>
-                          <li><a class="dropdown-item" href="./platos.html">Platos</a></li>
-                          <li><a class="dropdown-item" href="./bebidas.html">Bebidas</a></li>
-                          <li><a class="dropdown-item" href="./postres.html">Postres</a></li>
-                        </ul>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./nuestrahist.html">Nuestra historia</a>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary barra">
+        <div class="container-fluid">
+          <a href="../index.html">
+            <img
+              class="logo-inicio"
+              src="../assets/logo.png"
+              alt="logo piacere"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse barra"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Carta
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./desayunos.html"
+                      >Desayunos / meriendas</a
+                    >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                  <li>
+                    <a class="dropdown-item" href="./platos.html">Platos</a>
                   </li>
-    
+                  <li>
+                    <a class="dropdown-item" href="./bebidas.html">Bebidas</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./postres.html">Postres</a>
+                  </li>
                 </ul>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./nuestrahist.html"
+                  >Nuestra historia</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <body class="contenido">
+    <main>
+      <section>
         <h1 class="subt">Ponete en contacto con nosotros</h1>
-        <div >
-            <ul class="sub-item">Nuestras redes</ul>
-            <p class="texto">Buscá nuestras redes y enterate de todas nuestras novedades y promociones.</p>
-            <p class="texto">También podes conactarte al whatsapp para realizar tú reserva.</p>
+      </section>
+      <section>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide portada container"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../assets/pastas.jpeg" class="pastas" alt="pastas" />
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/vino.jpg" class="vino" alt="copa de vino" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/ensalada.jpg"
+                class="ensalada"
+                alt="ensalada"
+              />
+            </div>
+          </div>
         </div>
-    </body>
-    <footer class="footer-pia">
+        <div class="historia"></div>
+      </section>
+      <section>
         <div>
-          <ul class="redes">
-            <a href="https://www.whatsapp.com"></a> 
-            <li> 
-              <a href="https://www.whatsapp.com"><img src="../assets/whatsapp.png" alt="logo whatsapp"></a></li>
-            <li> 
-              <a href="https://www.facebook.com"><img  src="../assets/facebook.png" alt="logo facebook"> </a> </li>
-            <li>
-              <a href="https://www.instagam.com"><img src="../assets/instagram.png" alt="logo instagram"> </a></li>
-          </ul>
+          <h2 class="sub-item">Nuestras redes</h2>
+          <p class="texto">
+            Buscá nuestras redes y enterate de todas nuestras novedades y
+            promociones.
+          </p>
+          <p class="texto">
+            También podés contactarte al WhatsApp para realizar tu reserva.
+          </p>
         </div>
-      </footer>
-      </html>
+      </section>
+    </main>
+
+    <footer class="footer-pia">
+      <div>
+        <ul class="redes">
+          <a href="https://www.whatsapp.com"></a>
+          <li>
+            <a href="https://www.whatsapp.com"
+              ><img src="../assets/whatsapp.png" alt="logo whatsapp"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com"
+              ><img src="../assets/facebook.png" alt="logo facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagam.com"
+              ><img src="../assets/instagram.png" alt="logo instagram" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
